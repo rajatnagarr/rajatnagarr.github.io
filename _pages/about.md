@@ -51,4 +51,29 @@ Currently, I work as a Graduate Research Assistant at the Commonwealth Cyber Ini
 
 ## Skills
 
-5G | 4G-LTE | 3G | GSM | Linux | System Integration and Testing | Scripting and Automation | Communication Protocols | Project Management | Cellular Communications | Software-Defined Radios | Electronics Manufacturing | Embedded system Design | MATLAB | Data Communication | Wireless Sensor Networks | Embedded C | Network Security | Open-Source platforms
+### Wireless Technologies
+* 5G / 4G-LTE / 3G / GSM
+* Software-Defined Radios
+* Cellular Communications
+* Wireless Sensor Networks
+* CBRS / Spectrum Sharing
+
+### Technical Skills
+* Linux
+* System Integration and Testing
+* Scripting and Automation
+* Communication Protocols
+* MATLAB
+* Embedded C
+* Network Security
+* Open-Source platforms
+
+### Hardware & Design
+* Electronics Manufacturing
+* Embedded System Design
+* RF Circuit Design
+
+### Project Management
+* Test Planning and Execution
+* Technical Documentation
+* Team Coordination
