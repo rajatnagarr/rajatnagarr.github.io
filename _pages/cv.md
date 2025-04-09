@@ -9,37 +9,76 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)]({{ site.baseurl }}/files/Asheesh_resume.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Electrical & Computer Engineering, Virginia Tech, 2023-Present
+  * GPA: 4.0
+  * Related coursework: Cellular Communication Systems, Software Radios, 5G-Advanced, O-RAN, and 6G, Network Architecture and Protocols I and II
+* M.S. in Electrical & Computer Engineering, UNC Charlotte, 2020
+  * GPA: 3.71
+  * Master's Thesis: Information-based smart RF energy Harvesting in wireless sensor networks
+* B.Tech in Electronics & Telecommunication Engineering, Bharati Vidyapeeth University College of Engineering, India, 2013
+  * First Class with Distinction
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* January 2023 - Present: Graduate Research Assistant
+  * Commonwealth Cyber Initiative xG wireless testbed, Virginia Tech
+  * Duties:
+    * Conducting spectrum-sharing experiments with OpenSAS
+    * Working on CBRS testbed design deployment for end-to-end indoor/outdoor wireless environments
+    * Using software-defined radios, commercial O-RUs, and O-RAN-compatible open-source 5G NR cellular stacks and core networks
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* July 2022 - December 2022: Senior Engineer-System Integration and Test
+  * Verana Networks, Massachusetts
+  * Duties:
+    * Worked on IAB-based 5G mm-wave base station development
+    * Conducted cross-polarization (H and V channel) and self-interference measurements for IAB nodes with reconfigurable active array antennas
+    * Managed end-to-end multi-hop IAB system test bench deployments and link performance testing
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* November 2020 - July 2022: Lead Engineer Access QA
+  * Parallel Wireless, Nashua, New Hampshire
+  * Duties:
+    * Built testbeds for all-G cellular networks, protocol validation, and OTA performance testing
+    * Emulated field scenarios and conducted lab testing using Azimuth, XCAL, and spectrum analyzers
+
+* January 2019 - May 2020: Graduate Research Assistant
+  * University of North Carolina, Charlotte
+  * Duties:
+    * Served as Teaching Assistant for Basic Electrical Engineering for three semesters
+    * Focused on RF energy harvesting for wireless sensor networks and implemented MIMO on software-defined radios (USRP)
+
+* 2013-2014: Graduate Engineer Trainee
+  * Idea Cellular Limited, Maharashtra & Goa Circle, India
+  * Duties:
+    * Served as Cluster (three districts) Lead for 2G-3G project deployment
+    * Hands-on experience in RF planning, Projects, VAS (packet core network), MSC, BSC, Transmission (wired and wireless)
+    * Cluster in charge of 2G/3G implementation (13 Months)
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Wireless Communications
+  * 5G
+  * 4G-LTE
+  * 3G
+  * GSM
+  * Software-Defined Radios
+* Technical Skills
+  * Linux
+  * System Integration and Testing
+  * Scripting and Automation
+  * Communication Protocols
+  * Project Management
+  * Electronics Manufacturing
+  * Embedded system Design
+  * MATLAB
+  * Data Communication
+  * Wireless Sensor Networks
+  * Embedded C
+  * Network Security
+  * Open-Source platforms
 
 Publications
 ======
@@ -50,7 +89,7 @@ Publications
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
@@ -58,7 +97,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

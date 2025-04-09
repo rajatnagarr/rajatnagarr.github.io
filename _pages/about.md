@@ -1,49 +1,54 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Asheesh Tripathi - Electrical & Computer Engineering"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## Professional Summary
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am a PhD student in Electrical & Computer Engineering at Virginia Tech, focusing on wireless communications, 5G technology, and software-defined radios. My research interests include spectrum-sharing, CBRS testbed design, and O-RAN-compatible open-source 5G NR cellular stacks.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Currently, I work as a Graduate Research Assistant at the Commonwealth Cyber Initiative xG wireless testbed at Virginia Tech Arlington Research Center, where I conduct spectrum-sharing experiments with OpenSAS, an in-house open-source Spectrum Access System.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## Research Experience
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* **Graduate Research Assistant** at Commonwealth Cyber Initiative xG wireless testbed, Virginia Tech (Jan 2023 to present)
+  * Conducting spectrum-sharing experiments with OpenSAS
+  * Working on CBRS testbed design deployment for end-to-end indoor/outdoor wireless environments
+  * Using software-defined radios, commercial O-RUs, and O-RAN-compatible open-source 5G NR cellular stacks and core networks
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* **Senior Engineer-System Integration and Test** at Verana Networks, Massachusetts (July 2022-Dec 2022)
+  * Worked on IAB-based 5G mm-wave base station development
+  * Conducted cross-polarization (H and V channel) and self-interference measurements for IAB nodes with reconfigurable active array antennas
+  * Managed end-to-end multi-hop IAB system test bench deployments and link performance testing
 
-**Markdown generator**
+* **Lead Engineer Access QA** at Parallel Wireless, Nashua, New Hampshire (Nov 2020- July 2022)
+  * Built testbeds for all-G cellular networks, protocol validation, and OTA performance testing
+  * Emulated field scenarios and conducted lab testing using Azimuth, XCAL, and spectrum analyzers
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+* **Graduate Research Assistant** at the University of North Carolina, Charlotte (January 2019 -May 2020)
+  * Served as Teaching Assistant for Basic Electrical Engineering for three semesters
+  * Focused on RF energy harvesting for wireless sensor networks and implemented MIMO on software-defined radios (USRP)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Education
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+* **PhD in Electrical & Computer Engineering**, Virginia Tech (January 2023 – Present)
+  * GPA: 4.0
+  * Related coursework: Cellular Communication Systems, Software Radios, 5G-Advanced, O-RAN, and 6G, Network Architecture and Protocols I and II
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+* **MS in Electrical & Computer Engineering**, UNC Charlotte (August 2018 – August 2020)
+  * GPA: 3.71
+  * Related coursework: Data Communication and Networking, Embedded Operating Systems, Advanced Embedded Systems, Advanced Theory of Communication, Fundaments of Wireless Communications and Protocols, Wireless Network Security, Wireless Communications and Networks
+  * Master's Thesis: Information-based smart RF energy Harvesting in wireless sensor networks
+
+* **Bachelor of Technology**, Bharati Vidyapeeth University College of Engineering, India (May 2013)
+  * Major: Electronics & Telecommunication Engineering
+  * First Class with Distinction
+  * Related coursework: Cellular Mobile Communication, Signals and Systems, fiber optics and Satellite communication, Digital Signal Processing, Analog and Digital Communications, Microcontrollers and Microprocessors, Network Theory
+
+## Skills
+
+5G | 4G-LTE | 3G | GSM | Linux | System Integration and Testing | Scripting and Automation | Communication Protocols | Project Management | Cellular Communications | Software-Defined Radios | Electronics Manufacturing | Embedded system Design | MATLAB | Data Communication | Wireless Sensor Networks | Embedded C | Network Security | Open-Source platforms
